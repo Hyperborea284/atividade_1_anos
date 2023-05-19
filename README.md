@@ -1,4 +1,4 @@
-# atividade_1_anos
+# atividade_1_anos 😸
 ## estudo de **pensamento computacional** e *desenvolvimento* web
 ### usando HTML sublimete text e bootstrap
 
