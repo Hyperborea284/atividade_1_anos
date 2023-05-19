@@ -4,6 +4,8 @@
 
 Gera uma página tste usada na matéria de pensamento computacional 
 
+contato 📫 000jhs@gmail.com
+
 Instuto de ...  😎 🍻
 [P5.js](https://p5js.org)
 
