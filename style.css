@@ -7,11 +7,12 @@ body {
 }
 
 .principal{
-	background: #CCCCCC;
+	background: dimgrey;
 	padding: 30px;
 }
 
 .titulo-principal {
+	background: lightgrey;
 	padding-left: 20px;
 }
 
