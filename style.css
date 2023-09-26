@@ -51,3 +51,15 @@ ul {
 .imagembeneficios {
 	width: 50%;
 }
+
+.btn_btn-primary {
+	color: blue;
+}
+
+.btn_btn-secondary{
+	color: green;
+}
+
+.btn_btn-success{
+	color: red;
+}
