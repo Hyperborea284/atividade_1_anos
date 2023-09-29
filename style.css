@@ -17,7 +17,8 @@ body {
 }
 
 .titulo-centralizado {
-	text-align: center
+	text-align: center;
+    font-size: 40px;
 }
 
 p {
@@ -29,11 +30,13 @@ p {
 }
 
 em strong {
-	color: #FF0000;
+	color: #f3f5d0;
 }
 
 .itens {
-	font-style: italic
+	font-style: italic;
+    font-size: 25px;
+    font-family: Calibri;
 }
 
 .beneficios {
