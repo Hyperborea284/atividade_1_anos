@@ -18,7 +18,7 @@ body {
 
 .titulo-centralizado {
 	text-align: center;
-    font-size: 40px;
+	font-size: 40px;
 }
 
 p {
@@ -35,8 +35,19 @@ em strong {
 
 .itens {
 	font-style: italic;
-    font-size: 25px;
-    font-family: Calibri;
+	font-size: 25px;
+	font-family: Calibri;
+}
+
+.b {
+	font-style: italic;
+	font-size: 25px;
+	font-family: Calibri;
+}
+
+a:link {
+ color: #00F;
+ background-color: yellow;
 }
 
 .beneficios {
