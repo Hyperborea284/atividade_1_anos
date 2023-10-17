@@ -7,7 +7,7 @@ body {
 }
 
 .principal{
-	background: dimgrey;
+	background: grey;
 	padding: 30px;
 }
 
@@ -84,3 +84,9 @@ ul {
 .btn_btn-success{
 	color: red;
 }
+
+.footer_back{
+	color: darkblue;
+	background: lightgrey;
+}
+
