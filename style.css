@@ -40,6 +40,12 @@ em strong {
 	color: #f3f5d0;
 }
 
+.itens_02 {
+	font-style: italic;
+	font-size: 25px;
+	font-family: "Times New Roman";
+}
+
 .itens {
 	font-style: italic;
 	font-size: 25px;
