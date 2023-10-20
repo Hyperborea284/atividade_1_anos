@@ -13,7 +13,8 @@ body {
 
 .titulo-principal {
 	background: lightgrey;
-	padding-left: 20px;
+	padding-left: 30px;
+	text-align: center;
 }
 
 .titulo-centralizado {
