@@ -19,7 +19,8 @@ fi
 git clone "$1" "$download_dir/$(basename $1 .git)"
 
 # Abre os arquivos style.css e index.html no Sublime Text.
-subl "$download_dir/$(basename $1 .git)/style.css" &
+subl "$download_dir/$(basename $1 .git)/style.css"
+subl "$download_dir/$(basename $1 .git)/index.html" &
 subl_pid=$!
 
 # Abre o arquivo index.html no Firefox (assumindo que o Firefox está instalado).
