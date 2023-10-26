@@ -19,8 +19,17 @@ fi
 git clone "$1" "$download_dir/$(basename $1 .git)"
 
 # Abre os arquivos style.css e index.html no Sublime Text.
-subl "$download_dir/$(basename $1 .git)/style.css"
-subl "$download_dir/$(basename $1 .git)/index.html"
+subl "$download_dir/$(basename $1 .git)/style.css" &
+subl_pid=$!
 
 # Abre o arquivo index.html no Firefox (assumindo que o Firefox está instalado).
-firefox "$download_dir/$(basename $1 .git)/index.html"
+firefox "$download_dir/$(basename $1 .git)/index.html" &
+firefox_pid=$!
+
+# Espera o fechamento do Firefox e do Sublime Text.
+wait $firefox_pid
+wait $subl_pid
+
+# Após o fechamento dos programas, remove os arquivos locais.
+echo "Removendo arquivos locais, certifique-se de ter enviado ao GitHub."
+rm -rf "$download_dir/$(basename $1 .git)"
